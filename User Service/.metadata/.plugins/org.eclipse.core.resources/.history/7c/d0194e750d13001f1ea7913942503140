@@ -1,0 +1,5 @@
+package com.hra.UserService.external.services;
+
+public interface RatingService {
+
+}

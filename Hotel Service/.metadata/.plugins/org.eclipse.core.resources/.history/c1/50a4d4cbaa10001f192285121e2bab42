@@ -1,0 +1,5 @@
+package com.hra.HotelService.exceptions;
+
+public class GlobalExceptionHaldher {
+
+}

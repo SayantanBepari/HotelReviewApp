@@ -1,0 +1,26 @@
+server:
+  port: 8081
+  
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/userservicehra    #?useSSL=false
+    username: root
+    password: ABCDE54321@u
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#hibernate propertie
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    generate-ddl: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    
+    
+
+#spring.jpa.show-sql=true
+#spring.jpa.generate-ddl=true
+#spring.jpa.hibernate.ddl-auto=update
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
